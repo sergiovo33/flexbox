@@ -1,0 +1,66 @@
+*{margin: 0%;
+    padding: 0%;
+
+}
+header{
+    background-color: rgb(47, 25, 187);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: aquamarine;
+    width: 30%;
+    height:10vh;
+}
+
+.logo{
+    background-color: beige;
+    width: 30%;
+    height:10vh;
+}
+
+main{
+    width: 100%;
+    height: 40vh;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rosa{
+    width: 100%;
+    height: 35vh;
+    background-color: pink;
+}
+.morado{
+    width:100%;
+    height: 35vh;
+    background-color: darkorchid;
+}
+.cafe{
+    width:100%;
+    height: 35vh;
+    background-color: rgb(70, 22, 11);
+}
+.negro{
+    width:100%;
+    height: 35vh;
+    background-color: rgb(19, 15, 14);
+}
+
+footer div{
+    background-color: darksalmon;
+    height: 5vh;
+    width: 10%;
+}
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
