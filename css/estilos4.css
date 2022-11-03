@@ -1,0 +1,58 @@
+*{padding: 0;margin: 0;}
+.caja{
+    height: 200vh;
+    width: 30%;
+    background: linear-gradient(blue,red);
+    
+}
+
+div{
+    width: 10%;
+    height: 5vh;
+    background-color:goldenrod;
+    position: relative;
+}
+.caja1{
+    position: absolute;right: 5px;
+}
+
+.caja2{
+    position: relative;left: 60px;
+}
+
+.caja3{
+    position: fixed;
+    top: 5px;
+}
+
+.rana{
+position: absolute;
+top: 200px;
+z-index: 2;
+
+}
+
+.hoja{
+position: relative ; 
+left: 280px;
+top: 100px;
+z-index: 1;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    
+
+}
+.caja4{
+    width: 10%;
+    height: 30vh;
+
+}
+
+.caja4 image{
+    float: left;
+
+}
