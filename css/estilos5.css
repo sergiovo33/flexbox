@@ -1,0 +1,54 @@
+*{margin: 0%;
+    padding: 0%;
+    }
+
+body{
+    background: url(../img/paisaje-en-el-espacio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tarjeta{
+    background-color: rgba(255,255,255,0.1);
+    height: 350px;
+    width: 250px;
+    box-shadow: 5px 5px 30px rgba(215, 215, 74, 0.4);
+    border-radius: 50px;
+}
+
+
+
+img{
+    width: 100%;
+    opacity: .5;
+    margin-top: -100px;
+    
+}
+
+img:hover{
+    width: 200%;
+}
+
+.evento1{
+    color: deepskyblue;
+    
+}
+
+.evento1:hover{
+    color: darkred;
+    font-size: 3em;
+
+}
+
+.tarjeta:hover{
+    width: 300px;
+}
+
+.evento2:hover{
+    text-decoration: underline;
+}
